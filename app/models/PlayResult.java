@@ -25,7 +25,6 @@ public class PlayResult extends Model {
 	
 	@Constraints.Required
 	public Integer score2;
-	
 	  
 	public static Finder<Long,PlayResult> find = new Finder(
 			Long.class, PlayResult.class
